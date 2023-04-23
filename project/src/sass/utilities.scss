@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+$clr-primary-700: hsl(230, 35%, 7%);
+$clr-neutral-100: hsl(0, 0%, 100%);
+$clr-accent-400: hsl(231, 77%, 90%);
+
+$ff-heading: 'Bellefair', serif;
+$ff-subHeading: 'Barlow Condensed', sans-serif;
+$ff-body: 'Barlow', sans-serif;
+
+$fw-regular: 400;
+
+$fs-300: 1.4rem;
+$fs-400: 1.6rem;
+$fs-500: 2.8rem;
+$fs-600: 3.2rem;
+$fs-700: 5.6rem;
+$fs-800: 10rem;
+$fs-900: 15rem;
+
+
+.text-primary-700 {
+    color: $clr-primary-700;
+}
+.text-neutral-100 {
+    color: $clr-neutral-100;
+}
+.text-accent-400 {
+    color: $clr-accent-400;
+}
+
+.bg-primary-700 {
+    background-color: $clr-primary-700;
+}
+.bg-neutral-100 {
+    background-color: $clr-neutral-100;
+}
+.bg-accent-400 {
+    background-color: $clr-accent-400;
+}
+
+.fs-300 {
+    font-size: $fs-300;
+}
+.fs-400 {
+    font-size: $fs-400;
+}
+.fs-500 {
+    font-size: $fs-500;
+}
+.fs-600 {
+    font-size: $fs-600;
+}
+.fs-700 {
+    font-size: $fs-700;
+}
+.fs-800 {
+    font-size: $fs-800;
+}
+.fs-900 {
+    font-size: $fs-900;
+}
+
+
+:root {
+    font-size: 62.5%;
+    font-weight: $fw-regular;
+}
